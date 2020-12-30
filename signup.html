@@ -1,21 +1,30 @@
 <html>
+    <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>SonicGram</title>    
+    </head>
         <body>
             <div class="homediv">
-                <img src="https://p1.hiclipart.com/preview/257/897/238/sonic-the-hedgehog-icons-sonic-classic-sonic-hedgehog.jpg"><br>
-                Welcome to
+                <text class="text1" id="welcome">Welcome to</text>
                 <h1>SonicGram</h1>
-                Your only stop for everything Sonic
+                <text class="text2">Your only stop for everything Sonic</text>
             </div>
             <div class="logindiv">
                 <form>
                     <h3>Create Account</h3>
-                    <p><input type="text" placeholder="Full Name" name="new_name"></p>
-                    <p><input type="text" placeholder="Username" name="new_user"></p>
-                    <p><input type="password" placeholder="New Password" name="new_pass"><br></p>
-                    <p><input type="password" placeholder="Confirm Password" name="confirm_pass"><br></p>
-                    <p>Already have an account? <a href="login.html">Sign In.</a></p>
-                    <input type="submit" value="Sign Up">
+                    <p><input type="text" placeholder="Full Name" name="new_name" size="30"></p>
+                    <p><input type="text" placeholder="Username" name="new_user" size="30"></p>
+                    <p><input type="password" placeholder="New Password" name="new_pass" size="30"><br></p>
+                    <p><input type="password" placeholder="Confirm Password" name="confirm_pass" size="30"><br></p>
+                    <p id="create"><b>Already have an account?</b> <a href="login.html"><b>Sign In.</b></a></p>
+                    <input type="submit" value="Sign Up" class="sign">
                     
                 </div>
                 </form>
