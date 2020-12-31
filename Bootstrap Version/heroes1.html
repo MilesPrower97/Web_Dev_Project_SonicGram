@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>SonicGram</title>
+    <link href="layout.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header class="site-header sticky-top py-1">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="#" aria-label="Product">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>SonicGram</title></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" style="text-decoration: none; font-family: Londrina Solid; color: white;" href="mainhome.html">Home</a>
+        <a class="py-2 d-none d-md-inline-block" style="text-decoration: none; font-family: Londrina Solid; color: white;" href="characterboot.html">Character Map</a>
+        <a class="py-2 d-none d-md-inline-block" style="text-decoration: none; font-family: Londrina Solid; color: white;" href="#">Logout</a>
+      </nav>
+    </header>
+    <h1 style="text-align: center; margin-top: 50px; font-family: Londrina Solid;">Heroes</h1>
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="4"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="5"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="6"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="7"></li>
+              <li data-bs-target="#carouselExampleDark" data-bs-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ae449238-46c7-46f8-93ae-e27c004c6e1e/ddwr8d7-e6d515d1-41b9-4177-9d88-33b68906b9eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWU0NDkyMzgtNDZjNy00NmY4LTkzYWUtZTI3YzAwNGM2ZTFlXC9kZHdyOGQ3LWU2ZDUxNWQxLTQxYjktNDE3Ny05ZDg4LTMzYjY4OTA2YjllYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ybNhfVhAmjVTMExu5ljum1ZAwxFN2JRPv820b6VXHS0" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Rouge the Bat</h5>
+                  <p>This bat can be best called as a 
+                    female fatale, because of her 
+                    seductive nature and shrewd
+                    personality. A skilled thief who
+                    loves stealing jewels and precious
+                    items for her own selfish
+                    desires, she also has a heart of 
+                    gold. Do not mistake her for her 
+                    so-called negative aspects; she teams
+                    up with her friends to destroy and
+                    defeat Dr. Eggman's creations.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/dduodb1-d7051b01-b9e0-499e-a260-8e8775c39316.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGU3MzhjMTctN2YzYy00MjJlLTgyMjUtZjhjNzgyYjA4NjI2XC9kZHVvZGIxLWQ3MDUxYjAxLWI5ZTAtNDk5ZS1hMjYwLThlODc3NWMzOTMxNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Fzq_4pzKPFMxbifmRMiVmPJJYnizxrmYSX47cQkbSVg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cream the Rabbit</h5>
+                  <p>Cream is best defined as the most sweetest 
+                    and innocent of all characters. She is 
+                    equally loved by her friends, the closest
+                    being Blaze, Sonic and Tails. She travels 
+                    around with her pet Chao named Cheese.
+                    Cream completely detests evil and has a deep
+                    rooted anger for Dr. Eggman. Even though
+                    she is sweet, she is also very vain and not
+                    very smart like her other friends. Her
+                    emotions get the better of her.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://vignette.wikia.nocookie.net/sonic-universe/images/9/96/Amy_Rose_no_car_Team_Racing.png/revision/latest?cb=20180714015902" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Amy Rose the Hedgehog</h5>
+                  <p>This pink hedgehog is the most
+                    wildest among her friends. She
+                    wields a large gold striped
+                    hammer to attack her enemies.
+                    She has a big time crush on
+                    Sonic and has expressed her love for
+                    him openly; Sonic finds this as
+                    a nuissance. No other girl is
+                    allowed to talk to him apart from
+                    her, to which she can get extremely
+                    angry. Nonetheless, she makes a
+                    good companion and teammate
+                    when battling out with Dr. Eggman
+                    and his minions.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.mariowiki.com/images/thumb/5/52/Blaze_the_Cat_Rio2016.png/1200px-Blaze_the_Cat_Rio2016.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Blaze the Cat</h5>
+                  <p>This cat princess can be considered
+                    as the direct female counterpart of Sonic.
+                    As her name suggests, she has the ability
+                    of pyrokinesis or controlling fire. She
+                    is a hot-headed feline princess who
+                    belongs to another dimension than that
+                    of Sonic's, where her royal family rules
+                    over. She is also the guardian of the Sol
+                    Emeralds, the equivalent of Chaos Emeralds,
+                    which protect her world. Initially a very
+                    withdrawn individual, she overcame her
+                    withdrawal nature when she befriended
+                    Sonic and his friends.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ae449238-46c7-46f8-93ae-e27c004c6e1e/de1rgsc-a7f973fb-630f-4f88-a901-5dec17ae0844.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWU0NDkyMzgtNDZjNy00NmY4LTkzYWUtZTI3YzAwNGM2ZTFlXC9kZTFyZ3NjLWE3Zjk3M2ZiLTYzMGYtNGY4OC1hOTAxLTVkZWMxN2FlMDg0NC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.2_jeVKqOJTHjNoL2rM8JwXADx-YEez1mesBFRhe1taQ" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sonic the Hedgehog</h5>
+                  <p>A blue hedgehog who is in hot pursuit
+                    of Dr. Eggman, the evil scientist
+                    who intends to take over Sonic's world.
+                    His never ending fights with Eggman
+                    have been going on since 1991. A mastero
+                    of speed, Sonic has the greatest ability
+                    to run at very high speeds in very less
+                    time, hence his name. He can also harness
+                    the power of the Chaos Emeralds to transform
+                    into Super Sonic, a more powerful state
+                    which includes unlimited speed, flight and
+                    superhuman strength. Despite his hardcore
+                    abilities, he is very kind and friendly
+                    to his friends and a fun loving individual. 
+                    His best friend is Tails.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/240ee65a-c5c5-4226-8d1c-1b2d3a7045a2/d9vn96n-b02350de-04c7-4bc9-a30a-99f9fdf58c6c.png/v1/fill/w_1024,h_1024,strp/tails_the_fox_render_by_jaysonjeanchannel_d9vn96n-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDI0IiwicGF0aCI6IlwvZlwvMjQwZWU2NWEtYzVjNS00MjI2LThkMWMtMWIyZDNhNzA0NWEyXC9kOXZuOTZuLWIwMjM1MGRlLTA0YzctNGJjOS1hMzBhLTk5ZjlmZGY1OGM2Yy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.iE6fF5hfxT-o2Yszj1xvwD0ocMt5bCEN9cxH-xOhLRw" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Miles 'Tails' Prower the Fox</h5>
+                  <p>The best friend of Sonic. Originally known 
+                    as Miles Prower, he is a twin-tailed fox 
+                    who also acts as Sonic's guide. It was 
+                    Sonic who gave him the name as Tails, to 
+                    which he liked it very much. Tails is also 
+                    very intelligent as he can build planes, 
+                    ships, crafts as well as invent various 
+                    useful gadgets, you name it. His intellect
+                    and innocence have earned him respect among
+                    his peers, which is why he is far more
+                    intelligent than Dr. Eggaman. Using his twin
+                    tails, he can hover over the ground at very
+                    high speeds and also perform mid-air flights.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://static.wikia.nocookie.net/sonic/images/0/0a/TSR_Knuckles.png/revision/latest?cb=20201121123105https://static.wikia.nocookie.net/sonic/images/0/0a/TSR_Knuckles.png/revision/latest?cb=20201121123105" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Knuckles the Echidna</h5>
+                  <p>Sega's equivalent of Wolverine, Knuckles
+                    is a red colored echidna who possesses
+                    sharp, pointed prongs at his knuckles.
+                    As a result, he can break through weak
+                    walls and climb up walls using his pointed
+                    knuckles. He resides at Angel Island,
+                    acting as the guardian of the Master Emerald.
+                    However, he is too stubborn, short-tempered
+                    and not very clever when dealing with life
+                    situations. Because of this, he has
+                    ended up in trouble many times. Despite his
+                    stupidness, Rouge does seem to have a
+                    soft corner for him.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f60e214-76f5-4c8e-b9c7-7573feedaa4f/dbkaq1s-a1d1cb82-16d0-40d3-8406-95f91e5eb1d4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOWY2MGUyMTQtNzZmNS00YzhlLWI5YzctNzU3M2ZlZWRhYTRmXC9kYmthcTFzLWExZDFjYjgyLTE2ZDAtNDBkMy04NDA2LTk1ZjkxZTVlYjFkNC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ._NBqxbMgf4ox61olvoomyN1A36e6SE_wZnPyN50z1JU" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Shadow the Hedgehog</h5>
+                  <p>A creation of Dr. Eggman's grandfather,
+                    Dr. Gerald Robotnik, Shadow in a way
+                    can be mistaken for Sonic as he is his
+                    spitting image. The only difference is
+                    that Shadow is black in color with a
+                    central red mark on his head. He was
+                    created to destroy Sonic but then
+                    switched sides after finding out about
+                    Eggman's real schemes. He can be
+                    considered as an anti-social individual who
+                    doesn't like long talks or act out of
+                    character. Even though friends with
+                    Sonic, sometimes he does have stiff
+                    competition with him in terms of
+                    who's the fastest.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+    </main>
+        <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+          
+      </body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
